@@ -1,0 +1,1189 @@
+2017-Nov-28 06:52:20.807414 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2017-Nov-28 06:52:20.808169 : CAdapterFactory.cpp : Status(4):
+	Plug and play devices disabled.
+2017-Nov-28 06:52:20.808221 : CAdapterFactory.cpp : Status(4):
+	System will start without adapters.
+2017-Nov-28 06:52:20.808418 : CAdapterFactory.cpp : Status(4):
+	Starting the adapter i/o service.
+2017-Nov-28 06:52:21.337696 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 1) for 3713 ms
+2017-Nov-28 06:52:21.337875 : CBroker.cpp : Notice(5):
+	Phase: vvc for 3713ms offset 00:00:00
+2017-Nov-28 06:52:21.337946 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+ --------------------VVC ---------------------------------
+loaded okay
+SSTs under Slave #4: SST7 SST8 SST9 
+
+Phase A Command (in kVar) -3.2859
+Phase B Command (in kVar) -3.69771
+Phase C Command (in kVar) -1.76027
+2017-Nov-28 06:52:25.057919 : CConnectionManager.cpp : Warn(3):
+	EP = 127.0.0.1:5002
+2017-Nov-28 06:52:25.058493 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 522 ms
+2017-Nov-28 06:52:25.058629 : CBroker.cpp : Notice(5):
+	Phase: gm for 522ms offset 00:00:00
+2017-Nov-28 06:52:25.058713 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2017-Nov-28 06:52:25.058803 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2017-Nov-28 06:52:25.058903 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5001
+2017-Nov-28 06:52:25.058998 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5002
+2017-Nov-28 06:52:25.059094 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5003
+2017-Nov-28 06:52:25.059191 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5004
+2017-Nov-28 06:52:25.059285 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5005
+2017-Nov-28 06:52:25.059373 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5006
+2017-Nov-28 06:52:25.059462 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5007
+2017-Nov-28 06:52:25.059567 : GroupManagement.cpp : Notice(5):
+	All peers added 7
+2017-Nov-28 06:52:25.059650 : GroupManagement.cpp : Notice(5):
+	! arrogate:5001 added to peer set
+2017-Nov-28 06:52:25.059739 : GroupManagement.cpp : Notice(5):
+	! arrogate:5002 added to peer set
+2017-Nov-28 06:52:25.059823 : GroupManagement.cpp : Notice(5):
+	! arrogate:5003 added to peer set
+2017-Nov-28 06:52:25.059904 : GroupManagement.cpp : Notice(5):
+	! arrogate:5004 added to peer set
+2017-Nov-28 06:52:25.059981 : GroupManagement.cpp : Notice(5):
+	! arrogate:5005 added to peer set
+2017-Nov-28 06:52:25.060053 : GroupManagement.cpp : Notice(5):
+	! arrogate:5006 added to peer set
+2017-Nov-28 06:52:25.060130 : GroupManagement.cpp : Notice(5):
+	! arrogate:5007 added to peer set
+2017-Nov-28 06:52:25.060214 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 441
+2017-Nov-28 06:52:25.060306 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289384 (arrogate:5005)
+2017-Nov-28 06:52:25.060391 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 454
+2017-Nov-28 06:52:25.060475 : GroupManagement.cpp : Notice(5):
+	+ State Change NORMAL : 457
+2017-Nov-28 06:52:25.061441 : CConnectionManager.cpp : Warn(3):
+	EP = [::1]:5005
+2017-Nov-28 06:52:25.062912 : CConnectionManager.cpp : Warn(3):
+	EP = 127.0.0.1:5001
+2017-Nov-28 06:52:25.063661 : CConnectionManager.cpp : Warn(3):
+	EP = 127.0.0.1:5003
+2017-Nov-28 06:52:25.063975 : GroupManagement.cpp : Notice(5):
+	Updated peer set (UPDATE)
+2017-Nov-28 06:52:25.078803 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 1084
+2017-Nov-28 06:52:25.078900 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289385 (arrogate:5002) 
+2017-Nov-28 06:52:25.079197 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 1127
+2017-Nov-28 06:52:25.290372 : GroupManagement.cpp : Notice(5):
+	+ State change: NORMAL: 944
+2017-Nov-28 06:52:25.290560 : GroupManagement.cpp : Notice(5):
+	Updated Peer Set.
+2017-Nov-28 06:52:25.584967 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 316 ms
+2017-Nov-28 06:52:25.585173 : CBroker.cpp : Notice(5):
+	Phase: sc for 316ms offset 00:00:00
+2017-Nov-28 06:52:25.585223 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2017-Nov-28 06:52:25.585258 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2017-Nov-28 06:52:25.904117 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4096 ms
+2017-Nov-28 06:52:25.904295 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4096ms offset 00:00:00
+2017-Nov-28 06:52:25.904388 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2017-Nov-28 06:52:25.904601 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: arrogate:5005
+2017-Nov-28 06:52:25.904854 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: arrogate:5002
+2017-Nov-28 06:52:25.906729 : CConnectionManager.cpp : Warn(3):
+	EP = 127.0.1.1:5004
+2017-Nov-28 06:52:25.907523 : CConnectionManager.cpp : Warn(3):
+	EP = 127.0.1.1:5006
+2017-Nov-28 06:52:25.908191 : CConnectionManager.cpp : Warn(3):
+	EP = 127.0.1.1:5007
+loaded okay
+SSTs under Slave #4: SST7 SST8 SST9 
+
+Phase A Command (in kVar) -3.2859
+Phase B Command (in kVar) -3.69771
+Phase C Command (in kVar) -1.76027
+2017-Nov-28 06:52:25.908894 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5005
+2017-Nov-28 06:52:25.909015 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:25.914008 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2017-Nov-28 06:52:25.915943 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:25.918948 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2017-Nov-28 06:52:25.922848 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:25.927256 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5006
+2017-Nov-28 06:52:25.930703 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:25.934349 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5001
+2017-Nov-28 06:52:25.935078 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:25.936131 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5007
+2017-Nov-28 06:52:25.941952 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:25.943124 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2017-Nov-28 06:52:25.943819 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2017-Nov-28 06:52:25.944542 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2017-Nov-28 06:52:25.944632 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:30.000713 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2017-Nov-28 06:52:30.001010 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2017-Nov-28 06:52:30.002178 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2017-Nov-28 06:52:30.003542 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2017-Nov-28 06:52:30.004685 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111111000000000000000000000000
+2017-Nov-28 06:52:30.004845 : GroupManagement.cpp : Status(4):
+	Group Float : 3.5593e-43
+2017-Nov-28 06:52:30.005061 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5005, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (In Group)
+Node: arrogate:5004 State: Up (In Group)
+Node: arrogate:5005 State: Up (Me)
+Node: arrogate:5006 State: Up (In Group)
+Node: arrogate:5007 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.525670
+
+2017-Nov-28 06:52:30.535517 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 315 ms
+2017-Nov-28 06:52:30.535709 : CBroker.cpp : Notice(5):
+	Phase: sc for 315ms offset 00:00:00
+2017-Nov-28 06:52:30.535812 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2017-Nov-28 06:52:30.535913 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2017-Nov-28 06:52:30.810012 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2017-Nov-28 06:52:30.810360 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5006): 0.0007195
+2017-Nov-28 06:52:30.810814 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5007): 0.0008565
+2017-Nov-28 06:52:30.811302 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5001): 0.0010015
+2017-Nov-28 06:52:30.811856 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5002): 0.001171
+2017-Nov-28 06:52:30.812335 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5003): 0.00129
+2017-Nov-28 06:52:30.812827 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5004): 0.001444
+2017-Nov-28 06:52:30.851184 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2017-Nov-28 06:52:30.851640 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2017-Nov-28 06:52:30.852285 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+loaded okay
+SSTs under Slave #4: SST7 SST8 SST9 
+
+Phase A Command (in kVar) -3.2859
+Phase B Command (in kVar) -3.69771
+Phase C Command (in kVar) -1.76027
+2017-Nov-28 06:52:30.855862 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5005
+2017-Nov-28 06:52:30.856766 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:30.858975 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2017-Nov-28 06:52:30.860311 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:30.861535 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2017-Nov-28 06:52:30.862450 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:30.863647 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2017-Nov-28 06:52:30.864432 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:30.865615 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5006
+2017-Nov-28 06:52:30.866054 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:30.866439 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5007
+2017-Nov-28 06:52:30.867113 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:30.868082 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5001
+2017-Nov-28 06:52:30.868591 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:30.869391 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2017-Nov-28 06:52:30.869938 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2017-Nov-28 06:52:34.952507 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 528 ms
+2017-Nov-28 06:52:34.952688 : CBroker.cpp : Notice(5):
+	Phase: gm for 528ms offset 00:00:00
+2017-Nov-28 06:52:34.952790 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2017-Nov-28 06:52:34.952897 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2017-Nov-28 06:52:34.953057 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111111000000000000000000000000
+2017-Nov-28 06:52:34.953186 : GroupManagement.cpp : Status(4):
+	Group Float : 3.5593e-43
+2017-Nov-28 06:52:34.953413 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5005, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (In Group)
+Node: arrogate:5004 State: Up (In Group)
+Node: arrogate:5005 State: Up (Me)
+Node: arrogate:5006 State: Up (In Group)
+Node: arrogate:5007 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.527126
+
+2017-Nov-28 06:52:35.482036 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2017-Nov-28 06:52:35.482235 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00
+2017-Nov-28 06:52:35.482337 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2017-Nov-28 06:52:35.482440 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2017-Nov-28 06:52:35.800626 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2017-Nov-28 06:52:35.800829 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2017-Nov-28 06:52:35.801903 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2017-Nov-28 06:52:35.802626 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+loaded okay
+SSTs under Slave #4: SST7 SST8 SST9 
+
+Phase A Command (in kVar) -3.2859
+Phase B Command (in kVar) -3.69771
+Phase C Command (in kVar) -1.76027
+2017-Nov-28 06:52:35.806404 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5005
+2017-Nov-28 06:52:35.807345 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:35.808505 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2017-Nov-28 06:52:35.809405 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:35.810549 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5007
+2017-Nov-28 06:52:35.811428 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:35.812294 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2017-Nov-28 06:52:35.813165 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:35.819537 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5006
+2017-Nov-28 06:52:35.819644 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:35.821970 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2017-Nov-28 06:52:35.822642 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:35.828965 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5001
+2017-Nov-28 06:52:35.829059 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:35.829818 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2017-Nov-28 06:52:35.830349 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2017-Nov-28 06:52:39.903492 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 527 ms
+2017-Nov-28 06:52:39.904410 : CBroker.cpp : Notice(5):
+	Phase: gm for 527ms offset 00:00:00
+2017-Nov-28 06:52:39.905346 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2017-Nov-28 06:52:39.906365 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2017-Nov-28 06:52:39.907344 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111111000000000000000000000000
+2017-Nov-28 06:52:39.908284 : GroupManagement.cpp : Status(4):
+	Group Float : 3.5593e-43
+2017-Nov-28 06:52:39.909344 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5005, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (In Group)
+Node: arrogate:5004 State: Up (In Group)
+Node: arrogate:5005 State: Up (Me)
+Node: arrogate:5006 State: Up (In Group)
+Node: arrogate:5007 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.521183
+
+2017-Nov-28 06:52:40.436931 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 314 ms
+2017-Nov-28 06:52:40.437117 : CBroker.cpp : Notice(5):
+	Phase: sc for 314ms offset 00:00:00
+2017-Nov-28 06:52:40.437230 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2017-Nov-28 06:52:40.437332 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2017-Nov-28 06:52:40.761988 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4089 ms
+2017-Nov-28 06:52:40.762163 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4089ms offset 00:00:00
+2017-Nov-28 06:52:40.762261 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2017-Nov-28 06:52:40.762920 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2017-Nov-28 06:52:40.763039 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+loaded okay
+SSTs under Slave #4: SST7 SST8 SST9 
+
+Phase A Command (in kVar) -3.2859
+Phase B Command (in kVar) -3.69771
+Phase C Command (in kVar) -1.76027
+2017-Nov-28 06:52:40.766115 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5006
+2017-Nov-28 06:52:40.766251 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:40.766617 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5007
+2017-Nov-28 06:52:40.766736 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:40.766881 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2017-Nov-28 06:52:40.766986 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:40.767121 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5005
+2017-Nov-28 06:52:40.767230 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:40.767367 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2017-Nov-28 06:52:40.767475 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:40.780813 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5001
+2017-Nov-28 06:52:40.781558 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:40.782560 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2017-Nov-28 06:52:40.783552 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2017-Nov-28 06:52:40.811127 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.000174
+2017-Nov-28 06:52:40.811591 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5006): 0.00064
+2017-Nov-28 06:52:40.811947 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5007): 0.00076225
+2017-Nov-28 06:52:40.812421 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5003): 0.00098475
+2017-Nov-28 06:52:40.812727 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5004): 0.00110375
+2017-Nov-28 06:52:40.813009 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5001): 0.00106675
+2017-Nov-28 06:52:40.813262 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5002): 0.00117675
+2017-Nov-28 06:52:44.851639 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2017-Nov-28 06:52:44.851809 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00.000174
+2017-Nov-28 06:52:44.851886 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2017-Nov-28 06:52:44.851975 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2017-Nov-28 06:52:44.852112 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111111000000000000000000000000
+2017-Nov-28 06:52:44.852207 : GroupManagement.cpp : Status(4):
+	Group Float : 3.5593e-43
+2017-Nov-28 06:52:44.852436 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5005, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (In Group)
+Node: arrogate:5004 State: Up (In Group)
+Node: arrogate:5005 State: Up (Me)
+Node: arrogate:5006 State: Up (In Group)
+Node: arrogate:5007 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000174
+Time left in phase: 00:00:00.528230
+
+2017-Nov-28 06:52:45.381915 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2017-Nov-28 06:52:45.382048 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00.000174
+2017-Nov-28 06:52:45.382103 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2017-Nov-28 06:52:45.382172 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2017-Nov-28 06:52:45.705012 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4095 ms
+2017-Nov-28 06:52:45.706035 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4095ms offset 00:00:00.000174
+2017-Nov-28 06:52:45.706911 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2017-Nov-28 06:52:45.716294 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2017-Nov-28 06:52:45.717141 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+loaded okay
+SSTs under Slave #4: SST7 SST8 SST9 
+
+Phase A Command (in kVar) -3.2859
+Phase B Command (in kVar) -3.69771
+Phase C Command (in kVar) -1.76027
+2017-Nov-28 06:52:45.723884 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5006
+2017-Nov-28 06:52:45.725276 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:45.726694 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5007
+2017-Nov-28 06:52:45.728449 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:45.729340 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2017-Nov-28 06:52:45.730138 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:45.732616 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5005
+2017-Nov-28 06:52:45.733339 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:45.734115 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2017-Nov-28 06:52:45.734830 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:45.735826 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5001
+2017-Nov-28 06:52:45.736596 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:45.737560 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2017-Nov-28 06:52:45.738252 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2017-Nov-28 06:52:49.804804 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 526 ms
+2017-Nov-28 06:52:49.805922 : CBroker.cpp : Notice(5):
+	Phase: gm for 526ms offset 00:00:00.000174
+2017-Nov-28 06:52:49.806783 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2017-Nov-28 06:52:49.807651 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2017-Nov-28 06:52:49.808769 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111111000000000000000000000000
+2017-Nov-28 06:52:49.809614 : GroupManagement.cpp : Status(4):
+	Group Float : 3.5593e-43
+2017-Nov-28 06:52:49.810807 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5005, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (In Group)
+Node: arrogate:5004 State: Up (In Group)
+Node: arrogate:5005 State: Up (Me)
+Node: arrogate:5006 State: Up (In Group)
+Node: arrogate:5007 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000174
+Time left in phase: 00:00:00.520027
+
+2017-Nov-28 06:52:50.340140 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 310 ms
+2017-Nov-28 06:52:50.340318 : CBroker.cpp : Notice(5):
+	Phase: sc for 310ms offset 00:00:00.000174
+2017-Nov-28 06:52:50.340400 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2017-Nov-28 06:52:50.340483 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2017-Nov-28 06:52:50.650722 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2017-Nov-28 06:52:50.651018 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00.000174
+2017-Nov-28 06:52:50.651198 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00.000174
+2017-Nov-28 06:52:50.651292 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+loaded okay
+SSTs under Slave #4: SST7 SST8 SST9 
+
+Phase A Command (in kVar) -3.2859
+Phase B Command (in kVar) -3.69771
+Phase C Command (in kVar) -1.76027
+2017-Nov-28 06:52:50.653550 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5005
+2017-Nov-28 06:52:50.653648 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:50.653904 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5006
+2017-Nov-28 06:52:50.653985 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:50.661687 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2017-Nov-28 06:52:50.666189 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:50.666459 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2017-Nov-28 06:52:50.666527 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:50.666752 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2017-Nov-28 06:52:50.666812 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:50.667035 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5007
+2017-Nov-28 06:52:50.667094 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:50.671047 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5001
+2017-Nov-28 06:52:50.671124 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:50.671793 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2017-Nov-28 06:52:50.671857 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2017-Nov-28 06:52:50.812405 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.000441
+2017-Nov-28 06:52:50.812850 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5006): 0.000612833
+2017-Nov-28 06:52:50.813112 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5007): 0.000725667
+2017-Nov-28 06:52:50.813336 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5002): 0.0009395
+2017-Nov-28 06:52:50.813564 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5001): 0.000990667
+2017-Nov-28 06:52:50.813792 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5003): 0.000870167
+2017-Nov-28 06:52:50.814008 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5004): 0.000969833
+2017-Nov-28 06:52:54.751785 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2017-Nov-28 06:52:54.753031 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00.000441
+2017-Nov-28 06:52:54.753810 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2017-Nov-28 06:52:54.754612 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2017-Nov-28 06:52:54.755620 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111111000000000000000000000000
+2017-Nov-28 06:52:54.759160 : GroupManagement.cpp : Status(4):
+	Group Float : 3.5593e-43
+2017-Nov-28 06:52:54.760259 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5005, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (In Group)
+Node: arrogate:5004 State: Up (In Group)
+Node: arrogate:5005 State: Up (Me)
+Node: arrogate:5006 State: Up (In Group)
+Node: arrogate:5007 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000441
+Time left in phase: 00:00:00.520557
+
+2017-Nov-28 06:52:55.290798 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 310 ms
+2017-Nov-28 06:52:55.290989 : CBroker.cpp : Notice(5):
+	Phase: sc for 310ms offset 00:00:00.000441
+2017-Nov-28 06:52:55.291045 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2017-Nov-28 06:52:55.291089 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2017-Nov-28 06:52:55.601291 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2017-Nov-28 06:52:55.602211 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00.000441
+2017-Nov-28 06:52:55.603176 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+loaded okay
+SSTs under Slave #4: SST7 SST8 SST9 
+
+Phase A Command (in kVar) -3.2859
+Phase B Command (in kVar) -3.69771
+Phase C Command (in kVar) -1.76027
+2017-Nov-28 06:52:55.611660 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5005
+2017-Nov-28 06:52:55.614711 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:55.616040 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5006
+2017-Nov-28 06:52:55.619295 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:55.620531 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5007
+2017-Nov-28 06:52:55.622280 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:55.622679 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2017-Nov-28 06:52:55.622790 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:55.623056 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2017-Nov-28 06:52:55.623163 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:55.623329 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2017-Nov-28 06:52:55.623422 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:55.638408 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5001
+2017-Nov-28 06:52:55.639077 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:52:55.640177 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2017-Nov-28 06:52:55.640957 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2017-Nov-28 06:52:59.707711 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 523 ms
+2017-Nov-28 06:52:59.707867 : CBroker.cpp : Notice(5):
+	Phase: gm for 523ms offset 00:00:00.000441
+2017-Nov-28 06:52:59.707969 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2017-Nov-28 06:52:59.708099 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2017-Nov-28 06:52:59.708269 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111111000000000000000000000000
+2017-Nov-28 06:52:59.708386 : GroupManagement.cpp : Status(4):
+	Group Float : 3.5593e-43
+2017-Nov-28 06:52:59.708599 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5005, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (In Group)
+Node: arrogate:5004 State: Up (In Group)
+Node: arrogate:5005 State: Up (Me)
+Node: arrogate:5006 State: Up (In Group)
+Node: arrogate:5007 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000441
+Time left in phase: 00:00:00.522129
+
+2017-Nov-28 06:53:00.232022 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2017-Nov-28 06:53:00.232358 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00.000441
+2017-Nov-28 06:53:00.232470 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2017-Nov-28 06:53:00.232574 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2017-Nov-28 06:53:00.550770 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2017-Nov-28 06:53:00.550961 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00.000441
+2017-Nov-28 06:53:00.551084 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00.000441
+2017-Nov-28 06:53:00.551138 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+loaded okay
+SSTs under Slave #4: SST7 SST8 SST9 
+
+Phase A Command (in kVar) -3.2859
+Phase B Command (in kVar) -3.69771
+Phase C Command (in kVar) -1.76027
+2017-Nov-28 06:53:00.554516 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5005
+2017-Nov-28 06:53:00.555319 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:00.556497 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2017-Nov-28 06:53:00.566111 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:00.566980 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2017-Nov-28 06:53:00.567547 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:00.568424 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5006
+2017-Nov-28 06:53:00.568991 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:00.569793 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2017-Nov-28 06:53:00.570462 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:00.571155 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5007
+2017-Nov-28 06:53:00.571730 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:00.575518 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5001
+2017-Nov-28 06:53:00.576109 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:00.576863 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2017-Nov-28 06:53:00.577493 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2017-Nov-28 06:53:00.813723 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.000305
+2017-Nov-28 06:53:00.814500 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5006): 0.0006625
+2017-Nov-28 06:53:00.814938 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5007): 0.0007825
+2017-Nov-28 06:53:00.815324 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5001): 0.00101337
+2017-Nov-28 06:53:00.815691 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5002): 0.00100575
+2017-Nov-28 06:53:00.816091 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5004): 0.00104825
+2017-Nov-28 06:53:00.816505 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5003): 0.0010405
+2017-Nov-28 06:53:04.652703 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 528 ms
+2017-Nov-28 06:53:04.652936 : CBroker.cpp : Notice(5):
+	Phase: gm for 528ms offset 00:00:00.000305
+2017-Nov-28 06:53:04.653075 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2017-Nov-28 06:53:04.653199 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2017-Nov-28 06:53:04.653380 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111111000000000000000000000000
+2017-Nov-28 06:53:04.653508 : GroupManagement.cpp : Status(4):
+	Group Float : 3.5593e-43
+2017-Nov-28 06:53:04.653769 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5005, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (In Group)
+Node: arrogate:5004 State: Up (In Group)
+Node: arrogate:5005 State: Up (Me)
+Node: arrogate:5006 State: Up (In Group)
+Node: arrogate:5007 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000305
+Time left in phase: 00:00:00.526966
+
+2017-Nov-28 06:53:05.182411 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2017-Nov-28 06:53:05.182697 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00.000305
+2017-Nov-28 06:53:05.182803 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2017-Nov-28 06:53:05.182898 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2017-Nov-28 06:53:05.502813 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4098 ms
+2017-Nov-28 06:53:05.503640 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4098ms offset 00:00:00.000305
+2017-Nov-28 06:53:05.504377 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2017-Nov-28 06:53:05.505463 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5007
+2017-Nov-28 06:53:05.510018 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+loaded okay
+SSTs under Slave #4: SST7 SST8 SST9 
+
+Phase A Command (in kVar) -3.2859
+Phase B Command (in kVar) -3.69771
+Phase C Command (in kVar) -1.76027
+2017-Nov-28 06:53:05.518147 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2017-Nov-28 06:53:05.519024 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:05.519700 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2017-Nov-28 06:53:05.520533 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:05.521082 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2017-Nov-28 06:53:05.521550 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:05.522395 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5005
+2017-Nov-28 06:53:05.522880 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:05.526820 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5006
+2017-Nov-28 06:53:05.527396 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:05.528066 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5001
+2017-Nov-28 06:53:05.528604 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:05.529054 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2017-Nov-28 06:53:05.529520 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2017-Nov-28 06:53:09.605491 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 525 ms
+2017-Nov-28 06:53:09.605666 : CBroker.cpp : Notice(5):
+	Phase: gm for 525ms offset 00:00:00.000305
+2017-Nov-28 06:53:09.605760 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2017-Nov-28 06:53:09.605865 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2017-Nov-28 06:53:09.606065 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111111000000000000000000000000
+2017-Nov-28 06:53:09.606179 : GroupManagement.cpp : Status(4):
+	Group Float : 3.5593e-43
+2017-Nov-28 06:53:09.606440 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5005, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (In Group)
+Node: arrogate:5004 State: Up (In Group)
+Node: arrogate:5005 State: Up (Me)
+Node: arrogate:5006 State: Up (In Group)
+Node: arrogate:5007 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000305
+Time left in phase: 00:00:00.524085
+
+2017-Nov-28 06:53:10.132337 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2017-Nov-28 06:53:10.132497 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00.000305
+2017-Nov-28 06:53:10.132584 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2017-Nov-28 06:53:10.132677 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2017-Nov-28 06:53:10.450890 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2017-Nov-28 06:53:10.451102 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00.000305
+2017-Nov-28 06:53:10.451253 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00.000305
+2017-Nov-28 06:53:10.451343 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+loaded okay
+SSTs under Slave #4: SST7 SST8 SST9 
+
+Phase A Command (in kVar) -3.2859
+Phase B Command (in kVar) -3.69771
+Phase C Command (in kVar) -1.76027
+2017-Nov-28 06:53:10.453037 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5005
+2017-Nov-28 06:53:10.453128 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:10.453239 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2017-Nov-28 06:53:10.453327 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:10.458758 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2017-Nov-28 06:53:10.458903 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:10.459354 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5006
+2017-Nov-28 06:53:10.459481 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:10.462213 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5007
+2017-Nov-28 06:53:10.462355 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:10.462718 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2017-Nov-28 06:53:10.462852 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:10.480022 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5001
+2017-Nov-28 06:53:10.480142 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:10.481124 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2017-Nov-28 06:53:10.481220 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2017-Nov-28 06:53:10.815289 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.000175
+2017-Nov-28 06:53:10.815589 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5006): 0.0006986
+2017-Nov-28 06:53:10.816230 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5007): 0.0008348
+2017-Nov-28 06:53:10.816783 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5001): 0.0010538
+2017-Nov-28 06:53:10.817259 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5004): 0.0010641
+2017-Nov-28 06:53:10.817665 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5003): 0.00112
+2017-Nov-28 06:53:10.818204 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5002): 0.0011675
+2017-Nov-28 06:53:14.554266 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 526 ms
+2017-Nov-28 06:53:14.555349 : CBroker.cpp : Notice(5):
+	Phase: gm for 526ms offset 00:00:00.000175
+2017-Nov-28 06:53:14.556268 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2017-Nov-28 06:53:14.557239 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2017-Nov-28 06:53:14.558293 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111111000000000000000000000000
+2017-Nov-28 06:53:14.559300 : GroupManagement.cpp : Status(4):
+	Group Float : 3.5593e-43
+2017-Nov-28 06:53:14.560468 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5005, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (In Group)
+Node: arrogate:5004 State: Up (In Group)
+Node: arrogate:5005 State: Up (Me)
+Node: arrogate:5006 State: Up (In Group)
+Node: arrogate:5007 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000175
+Time left in phase: 00:00:00.519839
+
+2017-Nov-28 06:53:15.087917 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 313 ms
+2017-Nov-28 06:53:15.088049 : CBroker.cpp : Notice(5):
+	Phase: sc for 313ms offset 00:00:00.000175
+2017-Nov-28 06:53:15.088105 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2017-Nov-28 06:53:15.088161 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2017-Nov-28 06:53:15.401326 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2017-Nov-28 06:53:15.402405 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00.000175
+2017-Nov-28 06:53:15.403269 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+loaded okay
+SSTs under Slave #4: SST7 SST8 SST9 
+
+Phase A Command (in kVar) -3.2859
+Phase B Command (in kVar) -3.69771
+Phase C Command (in kVar) -1.76027
+2017-Nov-28 06:53:15.407878 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5005
+2017-Nov-28 06:53:15.409248 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:15.411236 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2017-Nov-28 06:53:15.412915 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:15.415743 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2017-Nov-28 06:53:15.416791 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:15.418658 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2017-Nov-28 06:53:15.420148 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:15.423461 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5006
+2017-Nov-28 06:53:15.425851 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:15.428017 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5007
+2017-Nov-28 06:53:15.429485 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:15.436447 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5001
+2017-Nov-28 06:53:15.436554 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:15.436945 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2017-Nov-28 06:53:15.437028 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2017-Nov-28 06:53:19.503366 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 527 ms
+2017-Nov-28 06:53:19.503558 : CBroker.cpp : Notice(5):
+	Phase: gm for 527ms offset 00:00:00.000175
+2017-Nov-28 06:53:19.503652 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2017-Nov-28 06:53:19.503750 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2017-Nov-28 06:53:19.503907 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111111000000000000000000000000
+2017-Nov-28 06:53:19.504017 : GroupManagement.cpp : Status(4):
+	Group Float : 3.5593e-43
+2017-Nov-28 06:53:19.504287 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5005, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (In Group)
+Node: arrogate:5004 State: Up (In Group)
+Node: arrogate:5005 State: Up (Me)
+Node: arrogate:5006 State: Up (In Group)
+Node: arrogate:5007 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000175
+Time left in phase: 00:00:00.526112
+
+2017-Nov-28 06:53:20.031783 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2017-Nov-28 06:53:20.031948 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00.000175
+2017-Nov-28 06:53:20.032045 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2017-Nov-28 06:53:20.032126 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2017-Nov-28 06:53:20.351272 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2017-Nov-28 06:53:20.352092 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00.000175
+2017-Nov-28 06:53:20.352818 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+loaded okay
+SSTs under Slave #4: SST7 SST8 SST9 
+
+Phase A Command (in kVar) -3.2859
+Phase B Command (in kVar) -3.69771
+Phase C Command (in kVar) -1.76027
+2017-Nov-28 06:53:20.355875 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5005
+2017-Nov-28 06:53:20.356953 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:20.358236 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2017-Nov-28 06:53:20.358872 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:20.359455 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5007
+2017-Nov-28 06:53:20.359929 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:20.360585 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2017-Nov-28 06:53:20.361055 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:20.361552 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2017-Nov-28 06:53:20.362040 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:20.367122 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5006
+2017-Nov-28 06:53:20.367185 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:20.372134 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5001
+2017-Nov-28 06:53:20.372199 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:20.372406 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2017-Nov-28 06:53:20.372454 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2017-Nov-28 06:53:20.816490 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.000171
+2017-Nov-28 06:53:20.816825 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5006): 0.00069075
+2017-Nov-28 06:53:20.817493 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5007): 0.000846333
+2017-Nov-28 06:53:20.818184 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5001): 0.00107317
+2017-Nov-28 06:53:20.818575 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5003): 0.00113225
+2017-Nov-28 06:53:20.818945 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5002): 0.00121758
+2017-Nov-28 06:53:20.819362 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5004): 0.00113692
+2017-Nov-28 06:53:24.453113 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 527 ms
+2017-Nov-28 06:53:24.453301 : CBroker.cpp : Notice(5):
+	Phase: gm for 527ms offset 00:00:00.000171
+2017-Nov-28 06:53:24.453392 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2017-Nov-28 06:53:24.453487 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2017-Nov-28 06:53:24.453646 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111111000000000000000000000000
+2017-Nov-28 06:53:24.453801 : GroupManagement.cpp : Status(4):
+	Group Float : 3.5593e-43
+2017-Nov-28 06:53:24.454031 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5005, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (In Group)
+Node: arrogate:5004 State: Up (In Group)
+Node: arrogate:5005 State: Up (Me)
+Node: arrogate:5006 State: Up (In Group)
+Node: arrogate:5007 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000171
+Time left in phase: 00:00:00.526110
+
+2017-Nov-28 06:53:24.981488 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2017-Nov-28 06:53:24.981652 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00.000171
+2017-Nov-28 06:53:24.981720 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2017-Nov-28 06:53:24.981826 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2017-Nov-28 06:53:25.301034 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2017-Nov-28 06:53:25.301209 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00.000171
+2017-Nov-28 06:53:25.301297 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+loaded okay
+SSTs under Slave #4: SST7 SST8 SST9 
+
+Phase A Command (in kVar) -3.2859
+Phase B Command (in kVar) -3.69771
+Phase C Command (in kVar) -1.76027
+2017-Nov-28 06:53:25.302563 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5005
+2017-Nov-28 06:53:25.303047 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:25.303633 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2017-Nov-28 06:53:25.304176 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:25.304874 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2017-Nov-28 06:53:25.305402 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:25.306510 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5007
+2017-Nov-28 06:53:25.307050 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:25.307682 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5006
+2017-Nov-28 06:53:25.308445 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:25.310641 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2017-Nov-28 06:53:25.310737 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:25.316187 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5001
+2017-Nov-28 06:53:25.316476 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2017-Nov-28 06:53:25.316840 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2017-Nov-28 06:53:25.317114 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
