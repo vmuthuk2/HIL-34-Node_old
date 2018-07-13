@@ -1624,7 +1624,6 @@ catch(std::exception & e)
 {
   cout << "Error! Q Load Phase C did not recognize OUTPUT state!" << endl;
 }
-*/
 
 // end of SST reading
 
