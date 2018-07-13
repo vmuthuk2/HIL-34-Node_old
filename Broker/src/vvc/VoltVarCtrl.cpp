@@ -1032,7 +1032,7 @@ catch(std::exception & e)
 // end of Pload reading
 
 // SST reading from RSCAD
-/*
+
 std::set<device::CDevice::Pointer> qsstaSet;
 
 //retrieve the set of Phase A load devices
@@ -1048,93 +1048,158 @@ try
     float xx = qssta->GetState("gateway");
     cout << " Phase A Load (MVar) =  " << xx << "\n";
     cout << "The Device ID is " << qssta->GetID() << endl;
-    // SST1
-    if (qssta->GetID()=="SST1_a" && xx == 0)
-    {
-      cout << "Signal not updated!" << endl;
-    }
-    else if (qssta->GetID()=="SST1_a")
-    {
-      Dl(1,7) = (double)xx*1.0;//ratio depends on the signal from RSCAD
-      cout << "Phase A load for SST1 found:   " << Dl(1,7) <<" kVar" << endl;
-    }
-    else
-    {}
-    
-    // SST2
-    if (qssta->GetID()=="SST2_a" && xx == 0)
-    {
-      cout << "Signal not updated!" << endl;
-    }
-    else if (qssta->GetID()=="SST2_a")
-    {
-      Dl(2,7) = (double)xx*1.0;
-      cout << "Phase A load for SST2 found:   " << Dl(2,7) <<" kVar" << endl;
-    }
-    else
-    {}
-    
-    // SST3
+    // SST3 (820)
     if (qssta->GetID()=="SST3_a" && xx == 0)
     {
       cout << "Signal not updated!" << endl;
     }
     else if (qssta->GetID()=="SST3_a")
     {
-      Dl(3,7) = (double)xx*1.0;
-      cout << "Phase A load for SST3 found:   " << Dl(3,7) <<" kVar" << endl;
+      Dl(23,7) = (double)xx*1.0;//ratio depends on the signal from RSCAD
+      cout << "Phase A load for SST3 found:   " << Dl(23,7) <<" kVar" << endl;
     }
     else
     {}
     
-    // SST4
+    // SST4 (822)
     if (qssta->GetID()=="SST4_a" && xx == 0)
     {
       cout << "Signal not updated!" << endl;
     }
     else if (qssta->GetID()=="SST4_a")
     {
-      Dl(4,7) = (double)xx*1.0;
-      cout << "Phase A load for SST4 found:   " << Dl(4,7) <<" kVar" << endl;
+      Dl(24,7) = (double)xx*1.0;
+      cout << "Phase A load for SST4 found:   " << Dl(24,7) <<" kVar" << endl;
     }
     else
     {}
     
-    // SST5
-    if (qssta->GetID()=="SST5_a" && xx == 0)
+    // SST8 (830)
+    if (qssta->GetID()=="SST8_a" && xx == 0)
     {
       cout << "Signal not updated!" << endl;
     }
-    else if (qssta->GetID()=="SST5_a")
+    else if (qssta->GetID()=="SST8_a")
     {
-      Dl(8,7) = (double)xx*1.0;
-      cout << "Phase A load for SST5 found:   " << Dl(8,7) <<" kVar" << endl;
+      Dl(9,7) = (double)xx*1.0;
+      cout << "Phase A load for SST8 found:   " << Dl(9,7) <<" kVar" << endl;
     }
     else
     {}
     
-    // SST6
-    if (qssta->GetID()=="SST6_a" && xx == 0)
+    // SST10 (858)
+    if (qssta->GetID()=="SST10_a" && xx == 0)
     {
       cout << "Signal not updated!" << endl;
     }
-    else if (qssta->GetID()=="SST6_a")
+    else if (qssta->GetID()=="SST10_a")
     {
-      Dl(7,7) = (double)xx*1.0;
-      cout << "Phase A load for SST6 found:   " << Dl(7,7) <<" kVar" << endl;
+      Dl(13,7) = (double)xx*1.0;
+      cout << "Phase A load for SST10 found:   " << Dl(13,7) <<" kVar" << endl;
     }
     else
     {}
     
-    // SST7
-    if (qssta->GetID()=="SST7_a" && xx == 0)
+    // SST11 (890)
+    if (qssta->GetID()=="SST11_a" && xx == 0)
     {
       cout << "Signal not updated!" << endl;
     }
-    else if (qssta->GetID()=="SST7_a")
+    else if (qssta->GetID()=="SST11_a")
     {
-      Dl(6,7) = (double)xx*1.0;
-      cout << "Phase A load for SST7 found:   " << Dl(6,7) <<" kVar" << endl;
+      Dl(31,7) = (double)xx*1.0;
+      cout << "Phase A load for SST11 found:   " << Dl(31,7) <<" kVar" << endl;
+    }
+    else
+    {}
+    
+    // SST12 (864)
+    if (qssta->GetID()=="SST12_a" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qssta->GetID()=="SST12_a")
+    {
+      Dl(33,7) = (double)xx*1.0;
+      cout << "Phase A load for SST12 found:   " << Dl(33,7) <<" kVar" << endl;
+    }
+    else
+    {}
+    
+    // SST13 (834)
+    if (qssta->GetID()=="SST13_a" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qssta->GetID()=="SST13_a")
+    {
+      Dl(14,7) = (double)xx*1.0;
+      cout << "Phase A load for SST13 found:   " << Dl(14,7) <<" kVar" << endl;
+    }
+    else
+    {}
+	
+    // SST14 (860)
+    if (qssta->GetID()=="SST14_a" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qssta->GetID()=="SST14_a")
+    {
+      Dl(15,7) = (double)xx*1.0;
+      cout << "Phase A load for SST14 found:   " << Dl(15,7) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST15 (836)
+    if (qssta->GetID()=="SST15_a" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qssta->GetID()=="SST15_a")
+    {
+      Dl(16,7) = (double)xx*1.0;
+      cout << "Phase A load for SST15 found:   " << Dl(16,7) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST17 (844)
+    if (qssta->GetID()=="SST17_a" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qssta->GetID()=="SST17_a")
+    {
+      Dl(36,7) = (double)xx*1.0;
+      cout << "Phase A load for SST17 found:   " << Dl(36,7) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST19 (848)
+    if (qssta->GetID()=="SST19_a" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qssta->GetID()=="SST19_a")
+    {
+      Dl(38,7) = (double)xx*1.0;
+      cout << "Phase A load for SST19 found:   " << Dl(38,7) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST20 (840)
+    if (qssta->GetID()=="SST20_a" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qssta->GetID()=="SST20_a")
+    {
+      Dl(40,7) = (double)xx*1.0;
+      cout << "Phase A load for SST20 found:   " << Dl(40,7) <<" kVar" << endl;
     }
     else
     {}
@@ -1164,7 +1229,7 @@ try
     cout << " Phase B Load (MVar) =  " << xx << "\n";
     cout << "The Device ID is " << qsstb->GetID() << endl;
     
-    // SST1
+    // SST1 (806)
     if (qsstb->GetID()=="SST1_b" && xx == 0)
     {
       cout << "Signal not updated!" << endl;
@@ -1177,80 +1242,197 @@ try
     else
     {}
     
-    // SST2
+    // SST2 (810)
     if (qsstb->GetID()=="SST2_b" && xx == 0)
     {
       cout << "Signal not updated!" << endl;
     }
     else if (qsstb->GetID()=="SST2_b")
     {
-      Dl(2,9) = (double)xx*1.0;
-      cout << "Phase B load for SST2 found:   " << Dl(2,9) <<" kVar" << endl;
+      Dl(20,9) = (double)xx*1.0;
+      cout << "Phase B load for SST2 found:   " << Dl(20,9) <<" kVar" << endl;
     }
     else
     {}
    
-    // SST3
-    if (qsstb->GetID()=="SST3_b" && xx == 0)
-    {
-      cout << "Signal not updated!" << endl;
-    }
-    else if (qsstb->GetID()=="SST3_b")
-    {
-      Dl(3,9) = (double)xx*1.0;
-      cout << "Phase B load for SST3 found:   " << Dl(3,9) <<" kVar" << endl;
-    }
-    else
-    {}
-    
-    // SST4
-    if (qsstb->GetID()=="SST4_b" && xx == 0)
-    {
-      cout << "Signal not updated!" << endl;
-    }
-    else if (qsstb->GetID()=="SST4_b")
-    {
-      Dl(4,9) = (double)xx*1.0;
-      cout << "Phase B load for SST4 found:   " << Dl(4,9) <<" kVar" << endl;
-    }
-    else
-    {}
-    
-    // SST5
+    // SST5 (824)
     if (qsstb->GetID()=="SST5_b" && xx == 0)
     {
       cout << "Signal not updated!" << endl;
     }
     else if (qsstb->GetID()=="SST5_b")
     {
-      Dl(8,9) = (double)xx*1.0;
-      cout << "Phase B load for SST5 found:   " << Dl(8,9) <<" kVar" << endl;
+      Dl(7,9) = (double)xx*1.0;
+      cout << "Phase B load for SST5 found:   " << Dl(7,9) <<" kVar" << endl;
     }
     else
     {}
     
-    // SST6
+    // SST6 (826)
     if (qsstb->GetID()=="SST6_b" && xx == 0)
     {
       cout << "Signal not updated!" << endl;
     }
     else if (qsstb->GetID()=="SST6_b")
     {
-      Dl(7,9) = (double)xx*1.0;
-      cout << "Phase B load for SST6 found:   " << Dl(7,9) <<" kVar" << endl;
+      Dl(26,9) = (double)xx*1.0;
+      cout << "Phase B load for SST6 found:   " << Dl(26,9) <<" kVar" << endl;
     }
     else
     {}
     
-    // SST7
-    if (qsstb->GetID()=="SST7_b" && xx == 0)
+    // SST8 (830)
+    if (qsstb->GetID()=="SST8_b" && xx == 0)
     {
       cout << "Signal not updated!" << endl;
     }
-    else if (qsstb->GetID()=="SST7_b")
+    else if (qsstb->GetID()=="SST8_b")
     {
-      Dl(6,9) = (double)xx*1.0;
-      cout << "Phase B load for SST7 found:   " << Dl(6,9) <<" kVar" << endl;
+      Dl(9,9) = (double)xx*1.0;
+      cout << "Phase B load for SST8 found:   " << Dl(9,9) <<" kVar" << endl;
+    }
+    else
+    {}
+    
+    // SST9 (856)
+    if (qsstb->GetID()=="SST9_b" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstb->GetID()=="SST9_b")
+    {
+      Dl(28,9) = (double)xx*1.0;
+      cout << "Phase B load for SST9 found:   " << Dl(28,9) <<" kVar" << endl;
+    }
+    else
+    {}
+    
+    // SST10 (858)
+    if (qsstb->GetID()=="SST10_b" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstb->GetID()=="SST10_b")
+    {
+      Dl(13,9) = (double)xx*1.0;
+      cout << "Phase B load for SST10 found:   " << Dl(13,9) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST11 (890)
+    if (qsstb->GetID()=="SST11_b" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstb->GetID()=="SST11_b")
+    {
+      Dl(31,9) = (double)xx*1.0;
+      cout << "Phase B load for SST11 found:   " << Dl(31,9) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST13 (834)
+    if (qsstb->GetID()=="SST13_b" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstb->GetID()=="SST13_b")
+    {
+      Dl(14,9) = (double)xx*1.0;
+      cout << "Phase B load for SST13 found:   " << Dl(34,9) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST14 (860)
+    if (qsstb->GetID()=="SST14_b" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstb->GetID()=="SST14_b")
+    {
+      Dl(15,9) = (double)xx*1.0;
+      cout << "Phase B load for SST14 found:   " << Dl(15,9) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST15 (836)
+    if (qsstb->GetID()=="SST15_b" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstb->GetID()=="SST15_b")
+    {
+      Dl(16,9) = (double)xx*1.0;
+      cout << "Phase B load for SST15 found:   " << Dl(16,9) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST16 (838)
+    if (qsstb->GetID()=="SST16_b" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstb->GetID()=="SST16_b")
+    {
+      Dl(18,9) = (double)xx*1.0;
+      cout << "Phase B load for SST16 found:   " << Dl(18,9) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST17 (844)
+    if (qsstb->GetID()=="SST17_b" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstb->GetID()=="SST17_b")
+    {
+      Dl(36,9) = (double)xx*1.0;
+      cout << "Phase B load for SST17 found:   " << Dl(36,9) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST18 (846)
+    if (qsstb->GetID()=="SST18_b" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstb->GetID()=="SST18_b")
+    {
+      Dl(37,9) = (double)xx*1.0;
+      cout << "Phase B load for SST18 found:   " << Dl(37,9) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST19 (848)
+    if (qsstb->GetID()=="SST19_b" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstb->GetID()=="SST19_b")
+    {
+      Dl(38,9) = (double)xx*1.0;
+      cout << "Phase B load for SST19 found:   " << Dl(38,9) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST20 (840)
+    if (qsstb->GetID()=="SST20_b" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstb->GetID()=="SST20_b")
+    {
+      Dl(40,9) = (double)xx*1.0;
+      cout << "Phase B load for SST20 found:   " << Dl(40,9) <<" kVar" << endl;
     }
     else
     {}
@@ -1280,7 +1462,7 @@ try
     cout << " Phase C Load (MVar) =  " << xx << "\n";
     cout << "The Device ID is " << qsstc->GetID() << endl;
     
-    // SST1
+    // SST1 (806)
     if (qsstc->GetID()=="SST1_c" && xx == 0)
     {
       cout << "Signal not updated!" << endl;
@@ -1293,80 +1475,145 @@ try
     else
     {}
     
-    // SST2
-    if (qsstc->GetID()=="SST2_c" && xx == 0)
-    {
-      cout << "Signal not updated!" << endl;
-    }
-    else if (qsstc->GetID()=="SST2_c")
-    {
-      Dl(2,11) = (double)xx*1.0;
-      cout << "Phase C load for SST2 found:   " << Dl(2,11) <<" kVar" << endl;
-    }
-    else
-    {}
-    
-    // SST3
-    if (qsstc->GetID()=="SST3_c" && xx == 0)
-    {
-      cout << "Signal not updated!" << endl;
-    }
-    else if (qsstc->GetID()=="SST3_c")
-    {
-      Dl(3,11) = (double)xx*1.0;
-      cout << "Phase C load for SST3 found:   " << Dl(3,11) <<" kVar" << endl;
-    }
-    else
-    {}
-    
-    // SST4
-    if (qsstc->GetID()=="SST4_c" && xx == 0)
-    {
-      cout << "Signal not updated!" << endl;
-    }
-    else if (qsstc->GetID()=="SST4_c")
-    {
-      Dl(4,11) = (double)xx*1.0;
-      cout << "Phase C load for SST4 found:   " << Dl(4,11) <<" kVar" << endl;
-    }
-    else
-    {}
-    
-    // SST5
-    if (qsstc->GetID()=="SST5_c" && xx == 0)
-    {
-      cout << "Signal not updated!" << endl;
-    }
-    else if (qsstc->GetID()=="SST5_c")
-    {
-      Dl(8,11) = (double)xx*1.0;
-      cout << "Phase C load for SST5 found:   " << Dl(8,11) <<" kVar" << endl;
-    }
-    else
-    {}
-    
-    // SST6
-    if (qsstc->GetID()=="SST6_c" && xx == 0)
-    {
-      cout << "Signal not updated!" << endl;
-    }
-    else if (qsstc->GetID()=="SST6_c")
-    {
-      Dl(7,11) = (double)xx*1.0;
-      cout << "Phase C load for SST6 found:   " << Dl(7,11) <<" kVar" << endl;
-    }
-    else
-    {}
-    
-    // SST7
+    // SST7 (828)
     if (qsstc->GetID()=="SST7_c" && xx == 0)
     {
       cout << "Signal not updated!" << endl;
     }
     else if (qsstc->GetID()=="SST7_c")
     {
-      Dl(6,11) = (double)xx*1.0;
-      cout << "Phase C load for SST7 found:   " << Dl(6,11) <<" kVar" << endl;
+      Dl(8,11) = (double)xx*1.0;
+      cout << "Phase C load for SST7 found:   " << Dl(8,11) <<" kVar" << endl;
+    }
+    else
+    {}
+    
+    // SST8 (830)
+    if (qsstc->GetID()=="SST8_c" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstc->GetID()=="SST8_c")
+    {
+      Dl(9,11) = (double)xx*1.0;
+      cout << "Phase C load for SST8 found:   " << Dl(9,11) <<" kVar" << endl;
+    }
+    else
+    {}
+    
+    // SST10 (858)
+    if (qsstc->GetID()=="SST10_c" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstc->GetID()=="SST10_c")
+    {
+      Dl(13,11) = (double)xx*1.0;
+      cout << "Phase C load for SST10 found:   " << Dl(13,11) <<" kVar" << endl;
+    }
+    else
+    {}
+    
+    // SST11 (890)
+    if (qsstc->GetID()=="SST11_c" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstc->GetID()=="SST11_c")
+    {
+      Dl(31,11) = (double)xx*1.0;
+      cout << "Phase C load for SST11 found:   " << Dl(31,11) <<" kVar" << endl;
+    }
+    else
+    {}
+    
+    // SST13 (834)
+    if (qsstc->GetID()=="SST13_c" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstc->GetID()=="SST13_c")
+    {
+      Dl(14,11) = (double)xx*1.0;
+      cout << "Phase C load for SST13 found:   " << Dl(14,11) <<" kVar" << endl;
+    }
+    else
+    {}
+    
+    // SST14 (860)
+    if (qsstc->GetID()=="SST14_c" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstc->GetID()=="SST14_c")
+    {
+      Dl(15,11) = (double)xx*1.0;
+      cout << "Phase C load for SST14 found:   " << Dl(15,11) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST15 (836)
+    if (qsstc->GetID()=="SST15_c" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstc->GetID()=="SST15_c")
+    {
+      Dl(16,11) = (double)xx*1.0;
+      cout << "Phase C load for SST15 found:   " << Dl(16,11) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST17 (844)
+    if (qsstc->GetID()=="SST17_c" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstc->GetID()=="SST17_c")
+    {
+      Dl(36,11) = (double)xx*1.0;
+      cout << "Phase C load for SST17 found:   " << Dl(36,11) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST18 (846)
+    if (qsstc->GetID()=="SST18_c" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstc->GetID()=="SST18_c")
+    {
+      Dl(37,11) = (double)xx*1.0;
+      cout << "Phase C load for SST18 found:   " << Dl(37,11) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST19 (848)
+    if (qsstc->GetID()=="SST19_c" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstc->GetID()=="SST19_c")
+    {
+      Dl(38,11) = (double)xx*1.0;
+      cout << "Phase C load for SST19 found:   " << Dl(38,11) <<" kVar" << endl;
+    }
+    else
+    {}
+	  
+    // SST20 (860)
+    if (qsstc->GetID()=="SST20_c" && xx == 0)
+    {
+      cout << "Signal not updated!" << endl;
+    }
+    else if (qsstc->GetID()=="SST20_c")
+    {
+      Dl(40,11) = (double)xx*1.0;
+      cout << "Phase C load for SST20 found:   " << Dl(40,11) <<" kVar" << endl;
     }
     else
     {}
