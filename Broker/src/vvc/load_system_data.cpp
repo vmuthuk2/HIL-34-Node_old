@@ -36,7 +36,7 @@ data1.Dl << 1 << 0 << 1 << 1 << 2580   << 1 << 0*Rpv << 0*Rsst << 0*Rpv << 0*Rss
 	 << 3 << 2 << 3 << 1 << 32230  << 1 << 0*Rpv << 0*Rsst << 0*Rpv << 0*Rsst << 0*Rpv << 0*Rsst << 0*Rcap << 1 << 1 << 1 << arma::endr
 	 << 4 << 3 << 4 << 1 << 37500  << 1 << 0*Rpv << 0*Rsst << 0*Rpv << 0*Rsst << 0*Rpv << 0*Rsst << 0*Rcap << 1 << 1 << 1 << arma::endr
 	 << 5 << 4 << 5 << 1 << 29730  << 1 << 0*Rpv << 0*Rsst << 0*Rpv << 0*Rsst << 0*Rpv << 0*Rsst << 0*Rcap << 1 << 1 << 1 << arma::endr
-	 << 6 << 5 << 6 << 8 << 1 << 1 << 0*Rpv << 0*Rsst << 0*Rpv << 0*Rsst << 0*Rpv << 0*Rsst << 0*Rcap << 1.05 << 1.05 << 1.05 << arma::endr
+	 << 6 << 5 << 6 << 8 << 1 << 1 << 0*Rpv << 0*Rsst << 0*Rpv << 0*Rsst << 0*Rpv << 0*Rsst << 0*Rcap << 1 << 1 << 1 << arma::endr
 	 << 7 << 6 << 7 << 2 << 310    << 1 << 0*Rpv << 0*Rsst << 0*Rpv << 0*Rsst << 0*Rpv << 0*Rsst << 0*Rcap << 1 << 1 << 1 << arma::endr
 	 << 8 << 7 << 8 << 2 << 10210  << 1 << 0*Rpv << 0*Rsst << 5*Rpv << 2*Rsst << 0*Rpv << 0*Rsst << 0*Rcap << 1 << 1 << 1 << arma::endr
 	 << 9 << 8 << 9 << 2 << 840    << 1 << 0*Rpv << 0*Rsst << 0*Rpv << 0*Rsst << 4*Rpv << 2*Rsst << 0*Rcap << 1 << 1 << 1 << arma::endr
