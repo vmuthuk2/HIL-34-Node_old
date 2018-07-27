@@ -1715,7 +1715,8 @@ cout << "Vmin (p.u.) = " << Vmin_orig << endl;
 // Gradient Calculation
 
 //double beta0 = 0.1;// min dQsst for SST is 0.1 kVar
-double beta0 = 0.02;
+//double beta0 = 0.02;
+double beta0 = 0.001;
 double alpha = 1.1;
 int m_max = 300; // max iterations to search for the best step-size
 //deltaF/deltaTheta
