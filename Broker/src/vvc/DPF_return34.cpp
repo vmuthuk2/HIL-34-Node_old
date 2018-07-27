@@ -24,7 +24,7 @@ VPQ DPF_return34(mat Dl, cx_mat Z)
 	int Lla = 0;
 	int Llb = 0;
 	int Llc = 0;
-	int ltc_trig = 0;
+	//int ltc_trig = 0;
 	for (int i = 0; i < Ldl; ++i)
 	{
 		if ((int)Dl(i, 0) != 0)
@@ -35,15 +35,16 @@ VPQ DPF_return34(mat Dl, cx_mat Z)
 			Llb = Llb + 1;
 		if ((int)Dl(i, 10) != 0)
 			Llc = Llc + 1;
-		if (Dl(i, 6) < 0 || Dl(i, 8) < 0 || Dl(i, 10) < 0)
-			ltc_trig = 1;
+		//if (Dl(i, 6) < 0 || Dl(i, 8) < 0 || Dl(i, 10) < 0)
+			//ltc_trig = 1;
 	}
 	
-	if (ltc_trig == 0)
-		vo = 24.9 * 1.05;
-	else
-		vo = 24.9 * 0.9875; //(1-0.1/16*2)
-	end
+	vo = 24.9 * 1;
+	//if (ltc_trig == 0)
+		//vo = 24.9 * 1.05;
+	//else
+		//vo = 24.9 * 0.9875; //(1-0.1/16*2)
+	//end
 		
 	cnt_nodes = cnt_nodes + 1;//No of nodes= No of branches +1
 	cout << "Run DPF on " << cnt_nodes << " Nodes System" << endl;
