@@ -1,103 +1,153 @@
-<?xml version="1.0" encoding="us-ascii" ?>
+<?xml version="1.0" encoding="us-ascii"?>
 <root>
-    <adapter name = "simulation" type = "rtds">
-        <info>
-            <host>baffin.ece.ncsu.edu</host>
-            <port>5004</port>
-        </info>
-        <state>
-	    <entry index = "1">
-		<type>Sst_a</type>
-		<device>SST5_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "2">
-		<type>Sst_b</type>
-		<device>SST5_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "3">
-		<type>Sst_c</type>
-		<device>SST5_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "4">
-		<type>Sst_a</type>
-		<device>SST6_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "5">
-		<type>Sst_b</type>
-		<device>SST6_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "6">
-		<type>Sst_c</type>
-		<device>SST6_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "7">
-		<type>Sst_a</type>
-		<device>SST7_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "8">
-		<type>Sst_b</type>
-		<device>SST7_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "9">
-		<type>Sst_c</type>
-		<device>SST7_c</device>
-		<signal>gateway</signal>
-	    </entry>
-        </state>
-        <command>
-            <entry index = "1">
-		<type>Sst_a</type>
-		<device>SST5_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "2">
-		<type>Sst_b</type>
-		<device>SST5_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "3">
-		<type>Sst_c</type>
-		<device>SST5_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "4">
-		<type>Sst_a</type>
-		<device>SST6_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "5">
-		<type>Sst_b</type>
-		<device>SST6_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "6">
-		<type>Sst_c</type>
-		<device>SST6_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "7">
-		<type>Sst_a</type>
-		<device>SST7_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "8">
-		<type>Sst_b</type>
-		<device>SST7_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "9">
-		<type>Sst_c</type>
-		<device>SST7_c</device>
-		<signal>gateway</signal>
-	    </entry>
-        </command>
-    </adapter>
+	<adapter name="simulation" type="rtds">
+		<info>
+			<host>10.146.64.21</host>
+			<port>23017</port>
+		</info>
+		<state/>
+		<command>
+			<entry index="1">
+				<type>Sst_a</type>
+				<device>SST13_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="2">
+				<type>Sst_a</type>
+				<device>SST14_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="3">
+				<type>Sst_a</type>
+				<device>SST15_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="4">
+				<type>Sst_a</type>
+				<device>SST20_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="5">
+				<type>Sst_a</type>
+				<device>SST17_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="6">
+				<type>Sst_a</type>
+				<device>SST14_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="7">
+				<type>Sst_a</type>
+				<device>SST20_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="8">
+				<type>Sst_a</type>
+				<device>SST17_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="9">
+				<type>Sst_a</type>
+				<device>SST19_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="10">
+				<type>Sst_b</type>
+				<device>SST13_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="11">
+				<type>Sst_b</type>
+				<device>SST14_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="12">
+				<type>Sst_b</type>
+				<device>SST15_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="13">
+				<type>Sst_b</type>
+				<device>SST20_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="14">
+				<type>Sst_b</type>
+				<device>SST16_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="15">
+				<type>Sst_b</type>
+				<device>SST18_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="16">
+				<type>Sst_b</type>
+				<device>SST19_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="17">
+				<type>Sst_b</type>
+				<device>SST14_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="18">
+				<type>Sst_b</type>
+				<device>SST20_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="19">
+				<type>Sst_b</type>
+				<device>SST17_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="20">
+				<type>Sst_b</type>
+				<device>SST19_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="21">
+				<type>Sst_c</type>
+				<device>SST13_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="22">
+				<type>Sst_c</type>
+				<device>SST14_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="23">
+				<type>Sst_c</type>
+				<device>SST15_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="24">
+				<type>Sst_c</type>
+				<device>SST18_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="25">
+				<type>Sst_c</type>
+				<device>SST14_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="26">
+				<type>Sst_c</type>
+				<device>SST20_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="27">
+				<type>Sst_c</type>
+				<device>SST17_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="28">
+				<type>Sst_c</type>
+				<device>SST19_c</device>
+				<signal>gateway</signal>
+			</entry>
+		</command>
+	</adapter>
 </root>
+

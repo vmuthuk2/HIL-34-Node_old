@@ -1,328 +1,459 @@
-<?xml version="1.0" encoding="us-ascii" ?>
+<?xml version="1.0" encoding="us-ascii"?>
 <root>
-    <adapter name = "simulation" type = "rtds">
-        <info>
-            <host>baffin.ece.ncsu.edu</host>
-            <port>5001</port>
-        </info>
-        <state>
-            <entry index = "1">
-                <type>Pload_a</type>
-                <device>Pl1_a</device>
-                <signal>pload</signal>
-            </entry>
-            <entry index = "2">
-                <type>Pload_b</type>
-                <device>Pl1_b</device>
-                <signal>pload</signal>
-            </entry>
-	    <entry index = "3">
-                <type>Pload_c</type>
-                <device>Pl1_c</device>
-                <signal>pload</signal>
-            </entry>
-            <entry index = "4 ">
-		<type>Sst_a</type>
-		<device>SST1_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "5">
-		<type>Sst_b</type>
-		<device>SST1_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "6">
-		<type>Sst_c</type>
-		<device>SST1_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "7">
-                <type>Pload_a</type>
-                <device>Pl2_a</device>
-                <signal>pload</signal>
-            </entry>
-            <entry index = "8">
-                <type>Pload_b</type>
-                <device>Pl2_b</device>
-                <signal>pload</signal>
-            </entry>
-	    <entry index = "9">
-                <type>Pload_c</type>
-                <device>Pl2_c</device>
-                <signal>pload</signal>
-            </entry>
-            <entry index = "10 ">
-		<type>Sst_a</type>
-		<device>SST2_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "11">
-		<type>Sst_b</type>
-		<device>SST2_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "12">
-		<type>Sst_c</type>
-		<device>SST2_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	   <entry index = "13">
-                <type>Pload_a</type>
-                <device>Pl3_a</device>
-                <signal>pload</signal>
-            </entry>
-            <entry index = "14">
-                <type>Pload_b</type>
-                <device>Pl3_b</device>
-                <signal>pload</signal>
-            </entry>
-	    <entry index = "15">
-                <type>Pload_c</type>
-                <device>Pl3_c</device>
-                <signal>pload</signal>
-            </entry>
-            <entry index = "16">
-		<type>Sst_a</type>
-		<device>SST3_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "17">
-		<type>Sst_b</type>
-		<device>SST3_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "18">
-		<type>Sst_c</type>
-		<device>SST3_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "19">
-                <type>Pload_a</type>
-                <device>Pl4_a</device>
-                <signal>pload</signal>
-            </entry>
-            <entry index = "20">
-                <type>Pload_b</type>
-                <device>Pl4_b</device>
-                <signal>pload</signal>
-            </entry>
-	    <entry index = "21">
-                <type>Pload_c</type>
-                <device>Pl4_c</device>
-                <signal>pload</signal>
-            </entry>
-            <entry index = "22">
-		<type>Sst_a</type>
-		<device>SST4_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "23">
-		<type>Sst_b</type>
-		<device>SST4_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "24">
-		<type>Sst_c</type>
-		<device>SST4_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "25">
-                <type>Pload_a</type>
-                <device>Pl5_a</device>
-                <signal>pload</signal>
-            </entry>
-            <entry index = "26">
-                <type>Pload_b</type>
-                <device>Pl5_b</device>
-                <signal>pload</signal>
-            </entry>
-	    <entry index = "27">
-                <type>Pload_c</type>
-                <device>Pl5_c</device>
-                <signal>pload</signal>
-            </entry>
-            <entry index = "28">
-		<type>Sst_a</type>
-		<device>SST5_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "29">
-		<type>Sst_b</type>
-		<device>SST5_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "30">
-		<type>Sst_c</type>
-		<device>SST5_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "31">
-                <type>Pload_a</type>
-                <device>Pl6_a</device>
-                <signal>pload</signal>
-            </entry>
-            <entry index = "32">
-                <type>Pload_b</type>
-                <device>Pl6_b</device>
-                <signal>pload</signal>
-            </entry>
-	    <entry index = "33">
-                <type>Pload_c</type>
-                <device>Pl6_c</device>
-                <signal>pload</signal>
-            </entry>
-            <entry index = "34 ">
-		<type>Sst_a</type>
-		<device>SST6_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "35">
-		<type>Sst_b</type>
-		<device>SST6_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "36">
-		<type>Sst_c</type>
-		<device>SST6_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "37">
-                <type>Pload_a</type>
-                <device>Pl7_a</device>
-                <signal>pload</signal>
-            </entry>
-            <entry index = "38">
-                <type>Pload_b</type>
-                <device>Pl7_b</device>
-                <signal>pload</signal>
-            </entry>
-	    <entry index = "39">
-                <type>Pload_c</type>
-                <device>Pl7_c</device>
-                <signal>pload</signal>
-            </entry>
-            <entry index = "40 ">
-		<type>Sst_a</type>
-		<device>SST7_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "41">
-		<type>Sst_b</type>
-		<device>SST7_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "42">
-		<type>Sst_c</type>
-		<device>SST7_c</device>
-		<signal>gateway</signal>
-	    </entry>
-        </state>
-        <command>
-	    <entry index = "1 ">
-		<type>Sst_a</type>
-		<device>SST1_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "2">
-		<type>Sst_b</type>
-		<device>SST1_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "3">
-		<type>Sst_c</type>
-		<device>SST1_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "4 ">
-		<type>Sst_a</type>
-		<device>SST2_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "5">
-		<type>Sst_b</type>
-		<device>SST2_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "6">
-		<type>Sst_c</type>
-		<device>SST2_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "7">
-		<type>Sst_a</type>
-		<device>SST3_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "8">
-		<type>Sst_b</type>
-		<device>SST3_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "9">
-		<type>Sst_c</type>
-		<device>SST3_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "10">
-		<type>Sst_a</type>
-		<device>SST4_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "11">
-		<type>Sst_b</type>
-		<device>SST4_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "12">
-		<type>Sst_c</type>
-		<device>SST4_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "13">
-		<type>Sst_a</type>
-		<device>SST5_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "14">
-		<type>Sst_b</type>
-		<device>SST5_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "15">
-		<type>Sst_c</type>
-		<device>SST5_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "16">
-		<type>Sst_a</type>
-		<device>SST6_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "17">
-		<type>Sst_b</type>
-		<device>SST6_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "18">
-		<type>Sst_c</type>
-		<device>SST6_c</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "19 ">
-		<type>Sst_a</type>
-		<device>SST7_a</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "20">
-		<type>Sst_b</type>
-		<device>SST7_b</device>
-		<signal>gateway</signal>
-	    </entry>
-	    <entry index = "21">
-		<type>Sst_c</type>
-		<device>SST7_c</device>
-		<signal>gateway</signal>
-	    </entry>
-        </command>
-    </adapter>
+	<adapter name="simulation" type="rtds">
+		<info>
+			<host>10.146.64.21</host>
+			<port>23011</port>
+		</info>
+		<state>
+			<entry index="1">
+				<type>Pload_a</type>
+				<device>Pl3_a</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="2">
+				<type>Pload_a</type>
+				<device>Pl4_a</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="3">
+				<type>Pload_a</type>
+				<device>Pl8_a</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="4">
+				<type>Pload_a</type>
+				<device>Pl10_a</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="5">
+				<type>Pload_a</type>
+				<device>Pl12_a</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="6">
+				<type>Pload_a</type>
+				<device>Pl13_a</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="7">
+				<type>Pload_a</type>
+				<device>Pl14_a</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="8">
+				<type>Pload_a</type>
+				<device>Pl15_a</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="9">
+				<type>Pload_a</type>
+				<device>Pl20_a</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="10">
+				<type>Pload_a</type>
+				<device>Pl17_a</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="11">
+				<type>Pload_a</type>
+				<device>Pl19_a</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="12">
+				<type>Pload_a</type>
+				<device>Pl11_a</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="13">
+				<type>Pload_b</type>
+				<device>Pl1_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="14">
+				<type>Pload_b</type>
+				<device>Pl2_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="15">
+				<type>Pload_b</type>
+				<device>Pl5_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="16">
+				<type>Pload_b</type>
+				<device>Pl6_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="17">
+				<type>Pload_b</type>
+				<device>Pl9_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="18">
+				<type>Pload_b</type>
+				<device>Pl10_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="19">
+				<type>Pload_b</type>
+				<device>Pl13_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="20">
+				<type>Pload_b</type>
+				<device>Pl14_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="21">
+				<type>Pload_b</type>
+				<device>Pl15_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="22">
+				<type>Pload_b</type>
+				<device>Pl20_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="23">
+				<type>Pload_b</type>
+				<device>Pl16_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="24">
+				<type>Pload_b</type>
+				<device>Pl18_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="25">
+				<type>Pload_b</type>
+				<device>Pl19_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="26">
+				<type>Pload_b</type>
+				<device>Pl17_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="27">
+				<type>Pload_b</type>
+				<device>Pl19_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="28">
+				<type>Pload_b</type>
+				<device>Pl11_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="29">
+				<type>Pload_b</type>
+				<device>Pl8_b</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="30">
+				<type>Pload_c</type>
+				<device>Pl1_c</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="31">
+				<type>Pload_c</type>
+				<device>Pl7_c</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="32">
+				<type>Pload_c</type>
+				<device>Pl10_c</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="33">
+				<type>Pload_c</type>
+				<device>Pl13_c</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="34">
+				<type>Pload_c</type>
+				<device>Pl14_c</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="35">
+				<type>Pload_c</type>
+				<device>Pl15_c</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="36">
+				<type>Pload_c</type>
+				<device>Pl18_c</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="37">
+				<type>Pload_c</type>
+				<device>Pl20_c</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="38">
+				<type>Pload_c</type>
+				<device>Pl17_c</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="39">
+				<type>Pload_c</type>
+				<device>Pl19_c</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="40">
+				<type>Pload_c</type>
+				<device>Pl11_c</device>
+				<signal>pload</signal>
+			</entry>
+			<entry index="41">
+				<type>Pload_c</type>
+				<device>Pl8_c</device>
+				<signal>pload</signal>
+			</entry>
+		</state>
+		<command>
+			<entry index="1">
+				<type>Sst_a</type>
+				<device>SST3_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="2">
+				<type>Sst_a</type>
+				<device>SST4_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="3">
+				<type>Sst_a</type>
+				<device>SST8_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="4">
+				<type>Sst_a</type>
+				<device>SST10_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="5">
+				<type>Sst_a</type>
+				<device>SST12_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="6">
+				<type>Sst_a</type>
+				<device>SST13_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="7">
+				<type>Sst_a</type>
+				<device>SST14_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="8">
+				<type>Sst_a</type>
+				<device>SST15_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="9">
+				<type>Sst_a</type>
+				<device>SST20_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="10">
+				<type>Sst_a</type>
+				<device>SST17_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="11">
+				<type>Sst_a</type>
+				<device>SST14_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="12">
+				<type>Sst_a</type>
+				<device>SST20_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="13">
+				<type>Sst_a</type>
+				<device>SST17_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="14">
+				<type>Sst_a</type>
+				<device>SST19_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="15">
+				<type>Sst_a</type>
+				<device>SST11_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="16">
+				<type>Sst_a</type>
+				<device>SST8_a</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="17">
+				<type>Sst_b</type>
+				<device>SST1_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="18">
+				<type>Sst_b</type>
+				<device>SST2_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="19">
+				<type>Sst_b</type>
+				<device>SST5_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="20">
+				<type>Sst_b</type>
+				<device>SST6_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="21">
+				<type>Sst_b</type>
+				<device>SST9_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="22">
+				<type>Sst_b</type>
+				<device>SST10_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="23">
+				<type>Sst_b</type>
+				<device>SST13_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="24">
+				<type>Sst_b</type>
+				<device>SST14_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="25">
+				<type>Sst_b</type>
+				<device>SST15_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="26">
+				<type>Sst_b</type>
+				<device>SST20_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="27">
+				<type>Sst_b</type>
+				<device>SST16_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="28">
+				<type>Sst_b</type>
+				<device>SST18_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="29">
+				<type>Sst_b</type>
+				<device>SST19_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="30">
+				<type>Sst_b</type>
+				<device>SST14_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="31">
+				<type>Sst_b</type>
+				<device>SST20_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="32">
+				<type>Sst_b</type>
+				<device>SST17_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="33">
+				<type>Sst_b</type>
+				<device>SST19_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="34">
+				<type>Sst_b</type>
+				<device>SST11_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="35">
+				<type>Sst_b</type>
+				<device>SST8_b</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="36">
+				<type>Sst_c</type>
+				<device>SST1_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="37">
+				<type>Sst_c</type>
+				<device>SST7_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="38">
+				<type>Sst_c</type>
+				<device>SST10_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="39">
+				<type>Sst_c</type>
+				<device>SST13_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="40">
+				<type>Sst_c</type>
+				<device>SST14_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="41">
+				<type>Sst_c</type>
+				<device>SST15_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="42">
+				<type>Sst_c</type>
+				<device>SST18_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="43">
+				<type>Sst_c</type>
+				<device>SST14_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="44">
+				<type>Sst_c</type>
+				<device>SST20_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="45">
+				<type>Sst_c</type>
+				<device>SST17_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="46">
+				<type>Sst_c</type>
+				<device>SST19_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="47">
+				<type>Sst_c</type>
+				<device>SST11_c</device>
+				<signal>gateway</signal>
+			</entry>
+			<entry index="48">
+				<type>Sst_c</type>
+				<device>SST8_c</device>
+				<signal>gateway</signal>
+			</entry>
+		</command>
+	</adapter>
 </root>
+
