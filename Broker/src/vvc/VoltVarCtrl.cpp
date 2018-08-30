@@ -1651,10 +1651,10 @@ mat Pload_total, Ploss_orig_ph;
 double Ploss_orig;
 Pload_total<< Pla_t << Plb_t << Plc_t << endr;
 Ploss_orig_ph << (PQb(0, 0) - Pla_t) << (PQb(0, 2) - Plb_t) << (PQb(0, 4) - Plc_t) << endr;
-cout << "phase loss" << Ploss_orig_ph << endl;
+//cout << "phase loss" << Ploss_orig_ph << endl;
 Ploss_orig = accu(Ploss_orig_ph);
 //cout << "total load (kW) per phase:" << Pload_total << endl;
-cout << "total loss (kW):" << Ploss_orig << endl;
+//cout << "total loss (kW):" << Ploss_orig << endl;
 
 
 
@@ -1702,8 +1702,8 @@ Vmin_abc << min(min(V_a)) << min(min(V_b)) << min(min(V_c))<<endr;
 Vmax_abc << max(max(V_a)) << max(max(V_b)) << max(max(V_c))<<endr;
 double Vmin_orig = min(min(Vmin_abc));
 double Vmax_orig = max(max(Vmax_abc));
-cout << "Vmax (p.u.) = " << Vmax_orig << endl;
-cout << "Vmin (p.u.) = " << Vmin_orig << endl;
+//cout << "Vmax (p.u.) = " << Vmax_orig << endl;
+//cout << "Vmin (p.u.) = " << Vmin_orig << endl;
 
 
 
@@ -1899,8 +1899,8 @@ double Ploss_osize;
 Pload_total<< Pla_t << Plb_t << Plc_t << endr;
 Ploss_oph << (PQb(0, 0) - Pla_t) << (PQb(0, 2) - Plb_t) << (PQb(0, 4) - Plc_t) << endr;
 Ploss_osize = accu(Ploss_oph);
-cout << "total load (kW) per phase:" << Pload_total << endl;
-cout << "total loss (kW):" << Ploss_osize << endl;
+//cout << "total load (kW) per phase:" << Pload_total << endl;
+//cout << "total loss (kW):" << Ploss_osize << endl;
 
 Vabc V_abc = V_abc_list(Vpolar,Node_f,Lvp,Lnum_a,Lnum_b,Lnum_c);
 
@@ -1917,7 +1917,7 @@ Vmax = max(max(Vmax_abc));
 
 
 step_size << cvq_a << cvq_b << cvq_c << endr;
-cout << "\n \n step-size at the " << m+1 << "th iteration = " << step_size(0,0) << endl;
+//cout << "\n \n step-size at the " << m+1 << "th iteration = " << step_size(0,0) << endl;
 
 // new step-size
 cvq_a=alpha*cvq_a;
@@ -1982,7 +1982,7 @@ double Ploss_nsize;
 Pload_total<< Pla_t << Plb_t << Plc_t << endr;
 Ploss_nph << (PQb(0, 0) - Pla_t) << (PQb(0, 2) - Plb_t) << (PQb(0, 4) - Plc_t) << endr;
 Ploss_nsize = accu(Ploss_nph);
-cout << "total loss (kW):" << Ploss_nsize << endl;
+//cout << "total loss (kW):" << Ploss_nsize << endl;
 
 if (Ploss_nsize>Ploss_osize)
 {
@@ -2121,8 +2121,8 @@ double Ploss_osize;
 Pload_total<< Pla_t << Plb_t << Plc_t << endr;
 Ploss_oph << (PQb(0, 0) - Pla_t) << (PQb(0, 2) - Plb_t) << (PQb(0, 4) - Plc_t) << endr;
 Ploss_osize = accu(Ploss_oph);
-cout << "total load (kW) per phase:" << Pload_total << endl;
-cout << "total loss (kW):" << Ploss_osize << endl;
+//cout << "total load (kW) per phase:" << Pload_total << endl;
+//cout << "total loss (kW):" << Ploss_osize << endl;
 
 Vabc V_abc = V_abc_list(Vpolar,Node_f,Lvp,Lnum_a,Lnum_b,Lnum_c);
 
@@ -2139,7 +2139,7 @@ Vmax = max(max(Vmax_abc));
 
 
 step_size << cvq_a << cvq_b << cvq_c << endr;
-cout << "\n \n step-size at the " << m+1 << "th iteration = " << step_size(0,0) << endl;
+//cout << "\n \n step-size at the " << m+1 << "th iteration = " << step_size(0,0) << endl;
 
 // new step-size
 cvq_a=alpha*cvq_a;
@@ -2203,9 +2203,9 @@ mat Ploss_nph;
 double Ploss_nsize;
 Pload_total<< Pla_t << Plb_t << Plc_t << endr;
 Ploss_nph << (PQb(0, 0) - Pla_t) << (PQb(0, 2) - Plb_t) << (PQb(0, 4) - Plc_t) << endr;
-cout << "total Phase Loss (kW): " << Ploss_nph << endl;
+//cout << "total Phase Loss (kW): " << Ploss_nph << endl;
 Ploss_nsize = accu(Ploss_nph);
-cout << "total loss (kW):" << Ploss_nsize << endl;
+//cout << "total loss (kW):" << Ploss_nsize << endl;
 
 if (Ploss_nsize>Ploss_osize)
 {
