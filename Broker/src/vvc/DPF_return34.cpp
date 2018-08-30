@@ -47,7 +47,7 @@ VPQ DPF_return34(mat Dl, cx_mat Z)
 	//end
 		
 	cnt_nodes = cnt_nodes + 1;//No of nodes= No of branches +1
-	cout << "Run DPF on " << cnt_nodes << " Nodes System" << endl;
+	//cout << "Run DPF on " << cnt_nodes << " Nodes System" << endl;
 	mat ln = Dl.col(0);
 	//cout << Dl.col(0) << endl; //first column is branch number
 	mat sbus = Dl.col(1);// second column is source bus
@@ -93,7 +93,7 @@ VPQ DPF_return34(mat Dl, cx_mat Z)
 			flag = 1;
 		}
 	}
-	cout << "Wz: " << Wz << endl;
+	//cout << "Wz: " << Wz << endl;
 	for (int i = 0; i < Wz; i++)
 	{
 		//Ztemp = Zz(0, i) / Zb;
@@ -308,11 +308,11 @@ VPQ DPF_return34(mat Dl, cx_mat Z)
 		cx_mat Idiff = Ib.row(0) - Ibo;
 		mat diff = abs(Idiff);
 		double errmx = max(max(diff));
-		cout << "At " << i+1 <<"th iteration,  max error = " << errmx << "\n";
+		//cout << "At " << i+1 <<"th iteration,  max error = " << errmx << "\n";
 		Ibo = Ib.row(0);
 		if (errmx < eps)
 		{
-			cout << " DPF converged!" << endl;
+			//cout << " DPF converged!" << endl;
 			Iinj = Ib;
 			Ild = IL;
 			break;
